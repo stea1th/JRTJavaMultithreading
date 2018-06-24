@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Chat" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Separator layoutX="452.0" orientation="VERTICAL" prefHeight="377.0" prefWidth="5.0" />
+            <Separator layoutY="332.0" prefHeight="0.0" prefWidth="454.0" />
+            <TextArea layoutX="14.0" layoutY="1.0" prefHeight="331.0" prefWidth="423.0" />
+            <TextField layoutX="14.0" layoutY="335.0" prefHeight="25.0" prefWidth="424.0" promptText="%key.unspecified" text="Сообщение:" />
+            <ListView editable="true" fixedCellSize="20.0" layoutX="455.0" layoutY="8.0" prefHeight="356.0" prefWidth="132.0" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
